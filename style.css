@@ -21,7 +21,7 @@ nav {
     justify-content: center;
 }
 
-.iconeFacebook {
+#iconeFacebook {
     width: 40px;
     height: 40px;
     margin-left: 15px;
@@ -38,7 +38,7 @@ nav {
     margin-left: 10px;
 }
 
-.iconeLupa {
+#iconeLupa {
     width: 20px;
     height: 20px;
 }
@@ -80,6 +80,12 @@ nav {
     border-radius: 10px;
 }
 
+.listaMenuLinks a:active {
+    border-bottom: 5px solid #245eff;
+    background: #f5f5f5;
+    border-radius: 0;
+}
+
 .listaMenuLinks img {
     width: 25px;
     height: 25px;
@@ -112,6 +118,14 @@ nav {
     background: #e0e0e0;
 }
 
+.listaUtilidades a:hover {
+    background: #d6d6d6;
+}
+
+.listaUtilidades a:active {
+    background: #e0e0e0;
+}
+
 .listaUtilidades img {
     width: 20px;
     height: 20px;
@@ -129,7 +143,7 @@ nav {
         height: 40px;
     }
     
-    .iconeLupa {
+    #iconeLupa {
         width: 20px;
         height: 20px;
     }
@@ -157,7 +171,7 @@ nav {
         height: 40px;
     }
     
-    .iconeLupa {
+    #iconeLupa {
         width: 20px;
         height: 20px;
     }
